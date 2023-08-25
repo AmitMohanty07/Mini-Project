@@ -1,0 +1,393 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+/* Forest  */
+
+.f-h-img{
+    background-image: url(f-h-img.jpg);
+    min-height: 100%;
+}
+
+.f-ft-img {
+    background-image: url(f-ft-img1.jpg);
+    min-height: 100%;
+}
+
+.f-img1 {
+    background-image: url(f-img1.jpg);
+    min-height: 500px;
+}
+
+.f-img2 {
+    background-image: url(f-img2.jpg);
+    min-height: 500px;
+}
+
+.f-img3 {
+    background-image: url(f-img3.jpg);
+    min-height: 500px;
+}
+
+.f-img4 {
+    background-image: url(f-img4.jpg);
+    min-height: 500px;
+}
+
+.f-img5 {
+    background-image: url(f-img5.jpg);
+    min-height: 500px;
+}
+
+.f-img6 {
+    background-image: url(f-img6.jpg);
+    min-height: 500px;
+}
+
+.f-h-img,
+.f-img1,
+.f-img2,
+.f-img3,
+.f-img4,
+.f-img5,
+.f-img6,
+.f-ft-img {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background: #242c2a91;
+    color: white;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section h2 {
+    text-transform: uppercase;
+}
+
+.section pre,
+ul li {
+    text-align: left;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 175px
+}
+
+input,
+textarea {
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #0c8223ef;
+    box-shadow: inset 0 1px 5px #0c8223ef;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: all .3s ease;
+}
+
+form::placeholder {
+    color: rgba(38, 177, 38, 0.682);
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 22px;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+    background-color: #0c8223ef;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.submit:hover {
+    background-color: rgba(26, 188, 156, 0.5);
+    box-shadow: none;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #4b4c4d60;
+    color: #fff;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 2;
+    color: #00000080;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.copyright a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyright a:hover{
+    color: #00000067;
+}
+
+
+
+/* National Park */
+
+
+.np-h-img{
+    background-image: url(np-h-img.jpg);
+    min-height: 100%;
+}
+
+.np-ft-img {
+    background-image: url(np-ft-img10.jpg);
+    min-height: 100%;
+}
+
+.np-img1 {
+    background-image: url(np-img1.jpg);
+    min-height: 600px;
+}
+
+.np-img2 {
+    background-image: url(np-img2.jpg);
+    min-height: 600px;
+}
+
+.np-img3 {
+    background-image: url(np-img3.jpg);
+    min-height: 600px;
+}
+
+.np-img4 {
+    background-image: url(np-img4.jpg);
+    min-height: 600px;
+}
+
+.np-img5 {
+    background-image: url(np-img5.jpg);
+    min-height: 600px;
+}
+
+.np-img6 {
+    background-image: url(np-img6.jpg);
+    min-height: 600px;
+}
+
+.np-h-img,
+.np-img1,
+.np-img2,
+.np-img3,
+.np-img4,
+.np-img5,
+.np-img6,
+.np-ft-img {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media(max-width:768px)
+{
+    .ptext .textbg{
+        font-size: 20px;
+        display: block;
+    }
+}
+
+/* Cultures */
+
+.c-h-img{
+    background-image: url(c-h-img.jpg);
+    min-height: 100%;
+}
+
+.c-ft-img {
+    background-image: url(c-ft-img.jpg);
+    min-height: 100%;
+}
+
+.c-img1 {
+    background-image: url(c-img1.jpg);
+    min-height: 600px;
+}
+
+.c-img2 {
+    background-image: url(c-img2.jpg);
+    min-height: 600px;
+}
+
+.c-img3 {
+    background-image: url(c-img3.jpg);
+    min-height: 600px;
+}
+
+.c-img4 {
+    background-image: url(c-img4.jpg);
+    min-height: 600px;
+}
+
+.c-img5 {
+    background-image: url(c-img5.jpg);
+    min-height: 600px;
+}
+
+.c-img6 {
+    background-image: url(c-img6.jpeg);
+    min-height: 600px;
+}
+
+.c-h-img,
+.c-img1,
+.c-img2,
+.c-img3,
+.c-img4,
+.c-img5,
+.c-img6,
+.c-ft-img {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Tourist */
+
+.t-h-img{
+    background-image: url(t-h-img.jpeg);
+    min-height: 100%;
+}
+
+.t-ft-img {
+    background-image: url(t-ft-img.jpg);
+    min-height: 100%;
+}
+
+.t-img1 {
+    background-image: url(t-img1.jpeg);
+    min-height: 600px;
+}
+
+.t-img2 {
+    background-image: url(t-img2.jpg);
+    min-height: 600px;
+}
+
+.t-img3 {
+    background-image: url(t-img3.jpg);
+    min-height: 600px;
+}
+
+.t-img4 {
+    background-image: url(t-img4.jpg);
+    min-height: 600px;
+}
+
+.t-img5 {
+    background-image: url(t-img5.jpg);
+    min-height: 600px;
+}
+
+.t-img6 {
+    background-image: url(t-img6.jpg);
+    min-height: 600px;
+}
+
+.t-h-img,
+.t-img1,
+.t-img2,
+.t-img3,
+.t-img4,
+.t-img5,
+.t-img6,
+.t-ft-img {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
